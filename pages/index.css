@@ -189,7 +189,7 @@
   line-height: 52px;
 }
 
-.reservation__form {
+.form_reservation__form {
   display: flex;
   border: 1px solid #838383;
 }
