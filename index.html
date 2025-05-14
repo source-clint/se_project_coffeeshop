@@ -109,11 +109,6 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <img
-            src="../images/background_reservation.svg"
-            alt="Reservation background image"
-            class="reservation__background"
-          />
           <div class="reservation__form">
             <h2 class="reservation__title">Book a table</h2>
             <form class="form reservation__form">
@@ -140,20 +135,164 @@
                   class="form__input"
                   placeholder="email@email.com"
                 />
-                <button type="submit" class="form__button">Book a table</button>
-                <input type="checkbox" class="form__checkbox" />
-                <label class="form__check form__check_label"
-                  >I agree with the terms of use</label
-                >
+                <button type="submit" class="form__button_table">
+                  Book a table
+                </button>
+                <div class="check">
+                  <input type="checkbox" class="form__checkbox" />
+                  <label class="form__check form__check_label"
+                    >I agree with the terms of use</label
+                  >
+                </div>
               </fieldset>
             </form>
           </div>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="about"></section>
+        <section class="menu" id="menu">
+          <div class="menu__heading">
+            <h2 class="menu__title">Menu</h2>
+            <h3 class="menu__subtitle">
+              We brew coffee from locally roasted, Fairtrade certified beans and
+              use biodegradable cups. All teas from our collection are $2/cup.
+            </h3>
+          </div>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__tite">Filter</h3>
+              <ul class="menu__list">
+                <li class="card__list-item">
+                  Regular (12 oz)
+                  <span class="card__list-divider"></span>$1
+                </li>
+                <li class="card__list-item">
+                  Large (16oz)
+                  <span class="card__list-divider"></span>$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)
+                  <span class="card__list-divider"></span>$1.50
+                </li>
+                <li class="card__list-item">
+                  Party-size (24oz, decaf)
+                  <span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)
+                  <span class="card__list-divider"></span>$1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__tite">Espresso</h3>
+              <ul class="menu__list">
+                <li class="card__list-item">
+                  Macchiato
+                  <span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado
+                  <span class="card__list-divider"></span>$2.50
+                </li>
+                <li class="card__list-item">
+                  Mocha
+                  <span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)
+                  <span class="card__list-divider"></span>$10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__tite">Baked Goods</h3>
+              <ul class="menu__list">
+                <li class="card__list-item">
+                  Almond Croissant
+                  <span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread
+                  <span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie
+                  <span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake
+                  <span class="card__list-divider"></span>$3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie
+                  <span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette
+                  <span class="card__list-divider"></span>$0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <div class="about__paragraphs">
+              <p class="about__paragraph">
+                Our coffee shop is located in the Triple Peaks Library. It
+                features 6 tables and free WiFi.
+              </p>
+              <p class="about__paragraph">
+                Our main mission is keeping guests cozy and energized.
+              </p>
+              <p class="about__paragraph">
+                Besides that, we try to reduce our environmental impact — so we
+                don't sell single-use cups. But you can buy one of our reusable
+                cups!
+              </p>
+            </div>
+            <div class="about__circle"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
+          </div>
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__column">
+            <div class="footer__logo">
+              <img
+                src="images/logo_coffeeshop_light.svg"
+                alt="footer background"
+              />
+            </div>
+            <div class="footer__socials">
+              <h4 class="footer__social-heading">Social Media</h4>
+              <div class="footer__list-item">
+                <div class="footer__social-icon">
+                  <img src="images/facebook_white.svg" alt="facebook icon" />
+                </div>
+                <a
+                  href="https://www.facebook.com/tripleten.tech/"
+                  class="footer__social-link"
+                  >Facebook</a
+                >
+              </div>
+              <div class="footer__list-item">
+                <div class="footer__social-icon">
+                  <img src="images/instagram_white.svg" alt="instagram icon" />
+                </div>
+                <a
+                  href="https://www.instagram.com/tripleten.tech/"
+                  class="footer__social-link"
+                  >Instagram</a
+                >
+              </div>
+            </div>
+          </div>
+          <h4 class="footer__copyright">Clint Junior Bainey 2025©</h4>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
