@@ -10,14 +10,8 @@
     />
     <meta name="author" content="Clint Junior Bainey" />
     <title>Triple Peaks Coffee Shop</title>
-    <link rel="stylesheet" href="pages/index.css" />
     <link rel="stylesheet" href="vendor/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -66,11 +60,12 @@
         />
         <div class="header__footer">
           <div class="header__left">
-            <p class="header__hours">Hours:</p>
-            <p class="header__hours">Monday – Friday (10:00 – 19:00)</p>
-            <p class="header__hours">Saturday – Sunday (11:00 – 18:00)</p>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__address">
+          <span></span>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
@@ -78,11 +73,11 @@
 
       <main class="content">
         <section class="recipes" id="recipes">
-          <div class="recipes__title">Recipes</div>
-          <div class="recipes__subtitle">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </div>
+          </p>
           <div class="recipes__videos">
             <div class="recipes__video">
               <iframe
@@ -93,7 +88,9 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Aeropress recipe ~5 min</p>
+              <p class="recipes__video-caption">
+                Aeropress recipe<span></span> ~5 min
+              </p>
             </div>
             <div class="recipes__video">
               <iframe
@@ -104,34 +101,35 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">French press recipe ~15 min</p>
+              <p class="recipes__video-caption">
+                French press recipe<span></span> ~15 min
+              </p>
             </div>
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <div class="reservation__form">
             <h2 class="reservation__title">Book a table</h2>
             <form class="form reservation__form">
-              <fieldset class="form form__fieldset">
+              <fieldset class="reservation reservation__fieldset">
                 <label class="form__label">Name *</label>
                 <input
-                  type="text"
+                  type="text" required
                   class="form__input"
-                  placeholder="Name Surname"
+                  placeholder="Name Surname" required
                 />
                 <label class="form__label">Number of guests*</label>
                 <input
-                  type="number"
-                  min="1"
-                  max="8"
+                  type="number" required
+                  min="1" required
+                  max="8" required
                   class="form__input"
-                  placeholder="1-8"
+                  placeholder="1-8" required
                 />
                 <label class="form__label">Date & time *</label>
-                <input type="datetime-local" class="form__input" />
+                <input type="datetime-local" required class="form__input" />
                 <label class="form__label">Your email *</label>
                 <input
-                  type="email"
+                  type="email" required
                   class="form__input"
                   placeholder="email@email.com"
                 />
@@ -139,7 +137,7 @@
                   Book a table
                 </button>
                 <div class="check">
-                  <input type="checkbox" class="form__checkbox" />
+                  <input type="checkbox" required class="form__checkbox" />
                   <label class="form__check form__check_label"
                     >I agree with the terms of use</label
                   >

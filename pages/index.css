@@ -87,7 +87,7 @@
   line-height: 0;
 }
 
-.header__hours {
+.header__paragraph {
   display: flex;
   flex-direction: row;
 }
@@ -211,7 +211,7 @@
   margin-bottom: 120px;
 }
 
-.form.form__fieldset {
+.reservation.reservation__fieldset {
   display: flex;
   flex-direction: column;
 }
@@ -274,7 +274,7 @@
   height: 20px;
 }
 
-.check {
+.form__check {
   display: flex;
 }
 
@@ -301,7 +301,7 @@
   text-align: center;
 }
 
-.menu__list {
+.card__list {
   list-style-type: none;
   padding: 0;
 }
