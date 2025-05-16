@@ -1,0 +1,9 @@
+.recipes {
+  position: relative;
+  padding-bottom: 215px;
+  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

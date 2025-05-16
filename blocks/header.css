@@ -1,0 +1,9 @@
+.header {
+  background-color: #fff;
+  background-size: cover;
+  height: 800px;
+  background-image: url(../images/background_header.svg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
