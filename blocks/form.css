@@ -7,3 +7,64 @@
   line-height: 20px;
   margin-bottom: 8px;
 }
+
+.form__input {
+  border-radius: 4px;
+  max-width: 385px;
+  padding: 15px 20px 15px 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__button {
+  border-radius: 4px;
+  background-color: #1878dc;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form__button_table {
+  border-radius: 4px;
+  background-color: #1878dc;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 32px 0 32px 0;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.form__check {
+  display: flex;
+}
+
+.form__check.form__check_label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 12px;
+}

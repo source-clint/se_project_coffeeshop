@@ -1,3 +1,72 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
+
+.footer__logo {
+  display: flex;
+  width: 105px;
+  height: 39px;
+  padding-left: 80px;
+  padding-top: 60px;
+}
+
+.footer__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials {
+  margin-right: 80px;
+}
+
+.footer__social-heading {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer__list-item {
+  display: flex;
+}
+
+.footer__social-icon {
+  display: flex;
+  height: 16px;
+  width: 16px;
+}
+
+.footer__social-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding-top: 108px;
+  padding-bottom: 60px;
+  margin-left: 80px;
+}
