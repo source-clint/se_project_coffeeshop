@@ -64,7 +64,6 @@
             <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
             <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <span></span>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -108,43 +107,53 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-            <h2 class="reservation__title">Book a table</h2>
-            <form class="form reservation__form">
-              <fieldset class="reservation reservation__fieldset">
-                <label class="form__label">Name *</label>
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                id="name"
+                required
+              />
+              <label class="form__label" for="number">Number of guests*</label>
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="form__input"
+                placeholder="1-8"
+                required
+                id="number"
+              />
+              <label class="form__label">Date & time *</label>
+              <input type="datetime-local" required class="form__input" />
+              <label class="form__label" for="email">Your email *</label>
+              <input
+                type="email"
+                required
+                class="form__input"
+                placeholder="email@email.com"
+                id="email"
+              />
+              <button type="submit" class="form__button_table">
+                Book a table
+              </button>
+              <div class="check">
                 <input
-                  type="text" required
-                  class="form__input"
-                  placeholder="Name Surname" required
+                  type="checkbox"
+                  required
+                  class="form__checkbox"
+                  id="checkbox"
                 />
-                <label class="form__label">Number of guests*</label>
-                <input
-                  type="number" required
-                  min="1" required
-                  max="8" required
-                  class="form__input"
-                  placeholder="1-8" required
-                />
-                <label class="form__label">Date & time *</label>
-                <input type="datetime-local" required class="form__input" />
-                <label class="form__label">Your email *</label>
-                <input
-                  type="email" required
-                  class="form__input"
-                  placeholder="email@email.com"
-                />
-                <button type="submit" class="form__button_table">
-                  Book a table
-                </button>
-                <div class="check">
-                  <input type="checkbox" required class="form__checkbox" />
-                  <label class="form__check form__check_label"
-                    >I agree with the terms of use</label
-                  >
-                </div>
-              </fieldset>
-            </form>
-          </div>
+                <label class="form__check form__check_label" for="checkbox"
+                  >I agree with the terms of use</label
+                >
+              </div>
+            </fieldset>
+          </form>
         </section>
         <section class="menu" id="menu">
           <div class="menu__heading">

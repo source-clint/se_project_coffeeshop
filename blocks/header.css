@@ -6,6 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  background-position: center;
 }
 
 .header__image {
@@ -14,16 +15,6 @@
   width: 646px;
   height: 568px;
   position: absolute;
-}
-
-.header {
-  background-color: #fff;
-  background-size: cover;
-  height: 800px;
-  background-image: url(../images/background_header.svg);
-  position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .header__title {
@@ -36,6 +27,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   margin-top: 183px;
+  margin-bottom: 0;
 }
 
 .header__span-accent {
@@ -45,6 +37,7 @@
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
+  display: block;
 }
 
 .header__description {
@@ -56,6 +49,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 
 .header__footer {
@@ -77,6 +71,7 @@
 .header__paragraph {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 .header__address {
